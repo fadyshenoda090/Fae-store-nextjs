@@ -1,33 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.scrollBarHide::-webkit-scrollbar {
+    display: none !important;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html{
+    background-color: #1b2223;
+    color: #fff;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.cl-internal-b3fm6y{
+    display: none !important;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.cl-card {
+    width: 100% !important;
+    justify-self: auto !important;
+    align-self: auto !important;
+    margin-left: auto;
+    margin-right: auto;
 }
+@media (max-width: 1024px) {
+    .cl-card {
+        width: 28rem !important;
+    }
+}@media (min-width: 1024px) {
+    .cl-card {
+        width: 100% !important;
+    }
+}
+/*#cart{*/
+/*    width: 15rem;*/
+/*    height: fit-content;*/
+/*    max-width: 20rem;*/
+/*    animation: slideIn 1s;*/
+/*    transition: all 0.8s ease-in-out;*/
+/*}*/
+/*@keyframes slideIn {*/
+/*    0% {*/
+/*        transform: translateY(-3%);*/
+/*        width: 0;*/
+/*        height: 0;*/
+/*        overflow: hidden;*/
+/*    }*/
+/*    50%{*/
+/*        transform: translateY(2%);*/
+/*        height: fit-content;*/
+/*        max-height: 20rem;*/
+/*        overflow: hidden;*/
+/*    }*/
+/*    100% {*/
+/*        transform: translateY(0);*/
+/*        width: 15rem;*/
+/*        height: fit-content;*/
+/*        max-height: 20rem;*/
+/*        overflow-y: auto;*/
+/*    }*/
+/*}*/
