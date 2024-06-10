@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from "next/image";
 import {motion} from "framer-motion";
-import Link from "next/link";
 import {useRouter} from "next/navigation";
 
 const Cart = ({cart, clicked, setClicked}) => {

@@ -27,31 +27,10 @@ html{
         width: 100% !important;
     }
 }
-/*#cart{*/
-/*    width: 15rem;*/
-/*    height: fit-content;*/
-/*    max-width: 20rem;*/
-/*    animation: slideIn 1s;*/
-/*    transition: all 0.8s ease-in-out;*/
-/*}*/
-/*@keyframes slideIn {*/
-/*    0% {*/
-/*        transform: translateY(-3%);*/
-/*        width: 0;*/
-/*        height: 0;*/
-/*        overflow: hidden;*/
-/*    }*/
-/*    50%{*/
-/*        transform: translateY(2%);*/
-/*        height: fit-content;*/
-/*        max-height: 20rem;*/
-/*        overflow: hidden;*/
-/*    }*/
-/*    100% {*/
-/*        transform: translateY(0);*/
-/*        width: 15rem;*/
-/*        height: fit-content;*/
-/*        max-height: 20rem;*/
-/*        overflow-y: auto;*/
-/*    }*/
-/*}*/
+.StripeElement--complete,
+.StripeElement--empty,
+.StripeElement--focus,
+.StripeElement--invalid,
+.StripeElement--webkit-autofill{
+    color: white !important;
+}

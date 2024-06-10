@@ -114,7 +114,7 @@ const Cart = () => {
 
                                     <div className="flex items-center justify-end">
                                         <Link
-                                            href="#"
+                                            href="/checkout"
                                             className="block rounded bg-mintBg px-5 py-3 text-sm text-darkText transition"
                                         >
                                             Checkout
